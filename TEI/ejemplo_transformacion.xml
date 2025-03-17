@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <?xml-model
+  href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"
+  type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader> 
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="quijote_avellaneda">Fragmento del Quijote de Avellaneda</title>             
+                <author>Alonso Fernández de Avellaneda</author>
+                <editor resp="crítica">Florencio Sevilla Arroyo</editor>
+                <editor resp="digital">Gabriel Calarco</editor>  
+             </titleStmt>
+            <publicationStmt>
+                <publisher>Curso de edición digital, Competencias transversales para la digitalización del patrimonio textual</publisher>
+                <availability>
+                    <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+            <bibl>
+                <title>Segundo tomo del ingenioso hidalgo Don Quixote de la Mancha, que contiene su tercera salida : y es la quinta parte de sus aventuras</title>
+                <author>Alonso Fernández de Avellaneda</author>
+                <publisher>Casa de Felipe Roberto</publisher> 
+                <date>1614</date>
+                <pubPlace>Tarragona, España</pubPlace>
+                <objectIdentifier>   
+                    <institution>Biblioteca Nacional (España)</institution>
+                    <idno>sig. R/32541</idno>
+             
+                </objectIdentifier>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+        <text>
+            <body>
+<pb n="1r"/>
+<head>Quinta parte del ingenioso hidalgo <persName key="quijote">Don Quijote de la Mancha</persName>, y de su andantesca caballería</head>
+
+<head>Capítulo Primero, de cómo <persName key="quijote">Don Quijote de la Mancha</persName> volvió a sus desvanecimientos de caballero andante, y de la venida a su lugar del <placeName key="argamesilla">Argamesilla</placeName> de <note xml:id="f1rnota1">ciertos caballeros granadinos</note>.</head>
+
+
+<p>El sabio <persName key="alisolan">Alisolán</persName>, historiador no menos moderno que verdadero, dice que siendo expelidos los <note xml:id="f1rnota2">moros agarenos</note> de <placeName key="aragon">Aragón</placeName>, de cuya nación él decendía, entre ciertos anales de historias halló <note xml:id="f1rnota3">escrita en arábigo</note> la tercera salida que hizo del lugar del <placeName key="argamesilla">Argamesilla</placeName> el invicto hidalgo <persName key="quijote">Don Quijote de la Mancha</persName>, para ir a unas justas que se hacían en la insigne ciudad de <placeName key="zaragoza">Zaragoza</placeName>, y dice desta manera:</p>
+
+<p>Después de haber sido llevado <pb n="1v"/>
+don Quijote por el cura y el barbero y la hermosa Dorotea a su lugar en una jaula, con <persName key="sancho">Sancho Panza</persName>, su escudero, fue metido en un aposento con una muy gruesa y pesada cadena al pie, adonde, no con pequeño regalo de pistos y cosas conservativas y sustanciales, le volvieron poco a poco a su natural juicio. Y para que no volviese a los antiguos desvanecimientos de sus fabulosos libros de caballerías, pasados algunos días de su encerramiento, empezó con mucha instancia a rogar a Madalena, su sobrina, que le buscase algún buen libro en que poder entretener aquellos setecientos años que él pensaba estar en aquel duro encantamiento. La cual, por consejo del cura Pedro Pérez y de maese Nicolás, barbero, le dio un <note xml:id="f1vnota1">Flos sanctorum</note> de Villegas y los Evangelios y Epístolas de todo el año en vulgar, y la Guía de pecadores de fray Luis de <placeName key="granada">Granada</placeName>; con la cual lición, olvidándose de las quimeras de los caballeros andantes, fue reducido dentro de seis meses a su antiguo juicio y suelto de la prisión en que estaba. </p>
+
+
+
+</body>
+</text>
+</TEI>
